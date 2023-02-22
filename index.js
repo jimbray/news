@@ -268,7 +268,7 @@ function bing_load (index) {
         index_num = index;
     }
     // 加载 bing
-    const bing_url = "https://cn.bing.com" + bing_data["data"][index_num]["url"];
+    const bing_url = "https://www.bing.com" + bing_data["data"][index_num]["url"];
     // 加载图片
     document.getElementById('bing').src = bing_url;
 
